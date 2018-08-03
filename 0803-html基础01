@@ -48,4 +48,30 @@
 		无序列表
 		ul li  圆点 type="circle"  方形 type="square"
 		有序列表
-		ol li  1 2 3 4 	
+		ol li  1 2 3 4 
+   表格布局:
+		把html元素有规则的摆放到页面上,布局
+		<table>表格的标记
+		<tr>表行
+		<td>表列  表元 单元格
+		属性: width宽度   height 高度
+		在表格当中，如果需要单元格的宽度跨几个单元格 列跨度  colspan=值(单元格的数目)
+		在表格当中，如果需要单元格的高度跨几个单元格 行跨度  rowspan=值（行的数目)
+		对于表格布局，就是<table> <tr> <td> <colspan> <rowspan>标签的组合
+	总结：
+		1、确定有多少行和多少列
+		行数：最小的为准，需要行间距，可以用行来代替
+		列数：以最小为准，需要列间距，可以用列来代替
+		2、确定合并行或者合并列,合并行用rowspan，合并的td只保留一个，其他合理删除
+				       合并列用colspan,合并的td只保留一个，其他合理删除
+		3、在td里插入html元素的标签 img h1 h2 h3 p a 
+			button 按钮 <button>按钮上的文本</button>
+		  布局复杂，可以考虑td里面嵌套table
+		 4、table 属性：
+			border=1，不设，table不可见
+			width 宽度，
+			height 高度
+			background='图像的路径名'
+			bgcolor='red' #dd dd dd 红 绿 蓝 
+				lightred 浅红
+				darkred 深红
