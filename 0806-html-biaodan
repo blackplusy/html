@@ -1,0 +1,76 @@
+HTML
+    1、超文本标识语言
+    2、标识:  html  head  title /head body 
+	段落 p
+	图片 img
+	链接  a
+	标题 h1--h6
+	字体 font face color size
+	加粗 b
+	倾斜 i
+	下滑线 u
+	居中 center
+	按钮 button
+	3、表格布局
+	table tr  td  colspan列跨 rowspan行跨
+    3、表单
+	 用户填写的一系列数据,数据能够提交给服务器，叫表单
+	  用户名:文本框
+	  密码： 密码框 :****
+	<html>上面可以敲:<!DOCTYPE html>声明一个html5的文档
+	<form>包起来的数据，可以提交到服务器上
+	action属性，设置提交地址
+	methd属性有两个方式：post get
+	get方式提交，明文发送,不加密，地址栏有信息,不安全的，大小限制 2M,不适合上传图片和视频
+	http://localhost/biaodan/test.html?username=dmin&password=admin&sex=on&love=on&love=on&love=on
+	post 不是明文发送，地址栏看不到信息，信息在文件体里，信息是加密的,没有大小限制
+	<input type="text">文本框 placeholder默认提示文字
+	<input type="password"/>密码框 placeholder默认提示文字
+	<input type="radio"/>单选钮，name设置为同名时，才能够进行单选
+	<input type="checkbox"/>复选框，可以选择多个选项
+	<input type="submit"/>提交 默认动作就是把form包起来的数据提交，提交地址在form的action属性中
+	<input type="reset"/>重置，把表单所有内容恢复原有设置
+	<input type="button"/>没有动作的按钮
+	<select>下拉框 三级联动 <option>下拉框里的选项
+	<textarea>多行文字框，（存协议）cols=10 可视列数，rows=4可视行数
+	<input type="hidden"/>隐藏的
+	多步表单:
+         1          2        3    4
+	有一些信息 附加信息  激活  成功
+	下一步     hidden
+ 	以上全是h4的
+	h5多加一些
+	<input type=“url">网址
+	<input type="email">邮件
+	<input type="range">滑动块
+	<input type="file">文件框
+	<input type="color">颜色框
+	http://localhost/biaodan/test.html?username=&password=&sex=on&love=on&range=88&file=test_redis.py&color=%23d90d19
+                                                                      红 绿 蓝 透明度
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
